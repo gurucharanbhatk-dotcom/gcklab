@@ -1,4 +1,0 @@
-User-agent: googlebot ->
-Allow: /
-
-Sitemap: https://gcklab.com/sitemap.xml
