@@ -1,14 +1,4 @@
-# GitHub Pages config for gcklab.com
-# Forces correct MIME types and disables Jekyll processing of non-HTML files
-
-include:
-  - sitemap.xml
-  - ads.txt
-  - robots.txt
-
-plugins:
-  - jekyll-sitemap
-
+# Disable Jekyll completely
 exclude:
   - "*.md"
   - README.md
