@@ -1,0 +1,19 @@
+# GitHub Pages configuration for gcklab.com
+# Tells Jekyll NOT to process our HTML — serve it as-is
+plugins: []
+
+# Serve these files without Jekyll processing
+include:
+  - index.html
+  - sitemap.xml
+  - ads.txt
+  - robots.txt
+  - CNAME
+
+# Exclude unneeded files
+exclude:
+  - README.md
+  - "*.md"
+
+# Disable Jekyll entirely — serve raw HTML/XML files
+# This prevents GitHub Pages from interfering with sitemap.xml MIME type
