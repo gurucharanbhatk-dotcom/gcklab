@@ -1,4 +1,2 @@
-# Disable Jekyll completely
-exclude:
-  - "*.md"
-  - README.md
+plugins:
+  - jekyll-sitemap
