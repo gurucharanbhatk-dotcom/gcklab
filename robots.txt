@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /?s=
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://gcklab.com/sitemap.xml
+Host: gcklab.com
